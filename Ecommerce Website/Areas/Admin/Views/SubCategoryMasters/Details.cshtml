@@ -1,0 +1,35 @@
+﻿@model Ecommerce_Website.Models.SubCategoryMaster
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SubCategoryMaster</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SubCategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SubCategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CategoryMaster.CategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CategoryMaster.CategoryName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SubCategoryId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

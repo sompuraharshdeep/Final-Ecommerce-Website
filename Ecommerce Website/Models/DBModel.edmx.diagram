@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="980ac97a26a84bd0b5fc64b55524ec73" Name="Diagram1">
+        <EntityTypeShape EntityType="DBProjectModel.CategoryMaster" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBProjectModel.LoginMaster" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBProjectModel.ProductMaster" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBProjectModel.SubCategoryMaster" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="DBProjectModel.FK__SubCatego__refCa__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="DBProjectModel.FK__ProductMa__refSu__2B3F6F97" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DBProjectModel.CartMaster" Width="1.5" PointX="12.375" PointY="3.25" />
+        <EntityTypeShape EntityType="DBProjectModel.CityMaster" Width="1.5" PointX="7.875" PointY="5.5" />
+        <EntityTypeShape EntityType="DBProjectModel.CountryMaster" Width="1.5" PointX="3.375" PointY="5.625" />
+        <EntityTypeShape EntityType="DBProjectModel.StateMaster" Width="1.5" PointX="5.625" PointY="5.5" />
+        <EntityTypeShape EntityType="DBProjectModel.UserMaster" Width="1.5" PointX="10.125" PointY="5" />
+        <AssociationConnector Association="DBProjectModel.FK__CartMaste__refPr__5441852A" />
+        <AssociationConnector Association="DBProjectModel.FK__CartMaste__refUs__534D60F1" />
+        <AssociationConnector Association="DBProjectModel.FK__CityMaste__refSt__3E52440B" />
+        <AssociationConnector Association="DBProjectModel.FK__UserMaste__refCi__4316F928" />
+        <AssociationConnector Association="DBProjectModel.FK__StateMast__refCo__3A81B327" />
+        <EntityTypeShape EntityType="DBProjectModel.UserLogin" Width="1.5" PointX="7.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
